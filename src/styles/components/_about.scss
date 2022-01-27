@@ -1,0 +1,213 @@
+.box-about{
+    transition: 0.5s ease-in-out;
+    // background-image: url("https://store.cloudflare.steamstatic.com/public/images/applications/store/diamonds_tile.png?v=c1258136984aabc0d6ed2229372a19b4");
+    background-color: $homepage-dark;
+    & a{
+        text-decoration: none;
+        color: $text-resalt;
+    }
+
+
+    & h3{
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+
+
+    }
+    & article{
+        padding: 30px ;
+        
+    }
+    & .about-container{
+        margin: 0 auto;
+
+    }
+    & .about-info-container{
+        justify-content: center;
+        
+    }
+    & .container-info{      
+        // justify-content: center;
+        // padding: 30px 0 0 0;
+    }
+ 
+
+
+    & .diploma-container{
+        // display: none;
+        height: 25%;
+        margin-bottom: 30px;
+    //    margin-left: -50px;
+        
+    }
+
+    & .diploma {  
+        width: 100%;
+        object-fit: cover;
+        filter: drop-shadow(0 0 1.0625em #050505);
+        border-radius: 10px;
+        border: solid 1px $text-resalt;
+        // margin-top: 10px;
+    }
+
+
+    
+    & .foto {   
+        
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 1.0625em #050505);
+        border: solid 1px $text-resalt;
+        
+    }
+
+
+    & .cv-container{
+        text-align: center;
+        background: radial-gradient(circle, $homepage-light 0%, $homepage-dark 90%);
+        margin-bottom: 20px;
+      
+       & a {
+           cursor: pointer;
+       }
+    }
+    & .cv{
+        font-size: 1.5rem;
+        color: $text-resalt;
+
+        &:hover{
+            font-size: 1.7rem;
+            color: $text;
+            filter: drop-shadow(0 0 0.325em $text-resalt);
+        }
+    }
+
+
+    & ._text-container{
+        background: radial-gradient(circle, $homepage-light 0%, $homepage-dark 90%);
+        padding: 30px 5px 0 5px;
+
+        margin-top: -15px;
+ 
+    }
+    
+    & ._text{
+        width: 100%;
+        padding: 2px;
+        font-size: 1.1rem;
+        
+
+    }
+
+
+
+    
+    @media all and (min-width: 900px){
+        & article{
+            padding: 40px 90px;
+            
+        } 
+        
+        & .cv-container{
+           margin-left: 15%;
+           margin-bottom: 0px;
+        }
+        & .diploma-container{
+            display: block;
+ 
+        }
+
+
+        & ._text{
+            margin: auto;
+            width: 100%;
+            padding: 10px;
+            font-size: 1.3rem;
+    
+        }
+        & .foto-container{
+            margin-top: -20px;
+            position: absolute;
+            right: 80px;
+            
+        }
+        & .foto {   
+            border-radius: 20px;
+            width: 75%;
+            height: 280px;
+            object-fit: cover;
+            filter: drop-shadow(0 0 1.0625em #050505)
+            
+        }
+            
+        & ._text-container{
+            
+            background: radial-gradient(circle, $homepage-light 0%, $homepage-dark 90%);
+            padding: 10px 30px;
+            margin-top: 25px;
+            margin-bottom: 50px;
+     
+        }
+
+
+    }
+
+    @media all and (min-width: 1024px){
+        & article{
+            padding: 40px 90px;
+            
+        }    
+        
+        & .diploma-container{
+            display: block;
+ 
+        }
+    }
+}
+
+.ba-nocturn{
+    transition: 0.5s ease-in-out;
+    color: black;
+    background-color: $homepage-dark-dayMode;
+    background-image: none;
+
+    & a{
+        color: $text-resalt-dayMode;
+    }
+
+    & img{
+        filter: drop-shadow(0 0 30px $text-resalt-dayMode);
+    }
+
+    .box-about_text-container{
+    
+        background: radial-gradient(circle, $homepage-light-dayMode 0%, $homepage-dark-dayMode 90%);
+    }
+
+    & .foto , .diploma {   
+        filter: drop-shadow(0 0 0.625em $text-resalt-dayMode);
+        border: 1px solid $text-resalt-dayMode;
+    }
+
+    & ._text-container{
+        background: radial-gradient(circle, $homepage-light-dayMode 0%, $homepage-dark-dayMode 90%);
+ 
+    }
+    & .cv-container{
+        background: radial-gradient(circle, $homepage-light-dayMode 0%, $homepage-dark-dayMode 90%);
+      
+    }
+    & .cv{
+        color: $text-resalt-dayMode;
+
+        &:hover{
+            color: $text-dayMode;
+            filter: drop-shadow(0 0 0.325em $text-resalt-dayMode);
+        }
+    }
+    
+    
+}

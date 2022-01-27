@@ -1,0 +1,94 @@
+
+.box-skill{
+
+    transition: 0.5s ease-in-out;
+    // background-image: url("https://store.cloudflare.steamstatic.com/public/images/applications/store/diamonds_tile.png?v=c1258136984aabc0d6ed2229372a19b4");
+    background-color: $homepage-light;
+
+
+    
+
+    & h3{
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+
+    }
+    & article{
+        padding: 30px ;
+        
+    }
+
+
+    &__skill-conteiner{
+       
+        padding: 0;
+        margin-top: -25px;
+        // margin: 0;
+
+
+    }
+    & .skill-group{
+        padding: 0;
+        margin: 0;
+    }
+    &__skill-card{
+        filter: drop-shadow(0 0 1.0625em #050505);
+        padding: 10px;
+        // height: 30vh;
+        // margin-top: 30px;
+        &-border{
+            border-radius: 10px;
+            border: 1px solid $text-resalt;
+            background: radial-gradient(circle, $homepage-light 0%, $homepage-dark 100%);
+            
+        }
+        & h4{
+            text-align: center;
+            font-style: oblique;
+        }
+
+    &-iconsContainer{
+        margin: 0;
+        padding: 15px;
+        justify-content: center;
+
+            & img{
+                    filter: drop-shadow(0 0 1.0625em $text-resalt);
+                    width: 75%;
+                }
+            & p{
+                text-align: center;
+                font-size: 0.9rem;
+            }
+            &_icon{
+                text-align: center;
+            }
+        }
+    }
+
+    @media all and (min-width: 900px){
+        & article{
+            padding: 40px 90px;
+            
+        }
+
+    }
+
+}
+
+.bs-nocturn{
+    transition: 0.5s ease-in-out;
+    color: $text-dayMode;
+    background-color: $homepage-light-dayMode;
+    background-image: none
+
+}
+.box-skill-nocturn-border{
+    border: 1px solid $text-resalt-dayMode;
+    background: radial-gradient(circle, $homepage-light-dayMode 0%, $homepage-dark-dayMode 100%);
+
+    & img{
+        filter: drop-shadow(0 0 1.0625em $text-resalt-dayMode);
+    }
+}

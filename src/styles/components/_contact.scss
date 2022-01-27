@@ -1,0 +1,130 @@
+.box-contact{
+    background-color: $homepage-light;
+
+    & h3{
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+
+    }
+    & article{
+        padding: 30px ;
+        
+    }
+
+    ._contact{
+        .-container{
+            margin: auto;
+        }
+
+        &-info-container{
+            & h2{
+                text-align: center;
+                font-size: 1.95rem;
+            }
+        }
+        &-text-container{
+           padding: 10px;
+           margin: 0 auto;
+
+           & ul{
+               padding: 0;
+           }
+           & li,p{
+               padding: 0;
+               font-size: 1rem;
+              
+           }
+           & p {
+            font-weight: bold;
+           }
+        }
+
+        &-redes-container{
+            height: 70px;
+            justify-content: center;
+     
+       
+            .red-{
+                color: black;
+                font-size: 2.5rem;
+                filter: drop-shadow(0 0 0.0625em $text-resalt);
+            }
+          
+            .red-:hover{
+                filter: drop-shadow(0 0 10px $text-resalt);
+                font-size: 2.8rem;
+            }
+
+        }
+    }
+
+
+
+
+    @media all and (min-width: 900px){
+        & article{
+            padding: 40px 90px;
+            
+        }
+        ._contact{
+
+    
+            &-info-container{
+                & h2{
+                    
+                    font-size: 3rem;
+                }
+                & li ,p{
+                    font-size: 1.4rem;
+                    line-height: 35px;
+                }
+            
+            }
+
+            
+        &-redes-container{
+     
+          
+            .red-{
+                font-size: 4rem;
+                }
+            }
+
+         
+            .red-:hover{
+                filter: drop-shadow(0 0 10px $text-resalt);
+                font-size: 4.2rem;
+            }
+            
+        }
+
+    }
+
+
+    
+}
+
+.bc-nocturn{
+    background-color: $homepage-light-dayMode;
+    color: $text-dayMode;
+
+    ._contact{
+        &-redes-container{
+
+                 
+           
+            .red-{
+                filter: drop-shadow(0 0 0.0625em $text-resalt-dayMode);
+            }
+           
+            .red-:hover{
+                filter: drop-shadow(0 0 10px $text-resalt-dayMode);
+            }
+
+        }
+
+    }
+
+
+}  

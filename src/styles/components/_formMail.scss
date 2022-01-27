@@ -1,0 +1,96 @@
+.box-form-mail{
+    background: radial-gradient(circle, $homepage-light 0%, $homepage-dark 100%);
+    border-radius: 10px;
+    border: 1px solid $text-resalt;
+    padding: 10px ;
+    height: 350px;
+    text-align: center;
+    
+    & form{
+        
+    
+        padding: 10px;
+        
+
+        & .nombre input,
+        & .email input,
+        & .mensaje textarea, 
+        & .enviar input{
+            width: 100%;
+           border-radius: 10px;
+           border: 1px solid $text-resalt;
+           outline: none;
+           text-align: center;
+        }
+
+        & .nombre input:hover,
+        & .email input:hover,
+        & .mensaje textarea:hover,
+        & .enviar input:hover{
+            filter: drop-shadow(0 0 0.225em $text-resalt);
+        }
+
+        & .nombre input:focus,
+        & .email input:focus,
+        & .mensaje textarea:focus{
+            background-color: rgb(212, 229, 247);
+            
+        }
+
+        & .enviar input{
+            padding: 5px;
+            color: $text;
+            background-color: $homepage-dark;
+            width: 100%;
+        }
+        & .enviar input:hover{
+            color: $text-resalt;
+            background-color: $homepage-light;
+        }
+    }
+}
+
+.box-form-mail:hover{
+    filter: drop-shadow(0 0 0.225em $text-resalt);
+}
+
+.bc-nocturn{
+
+    .box-form-mail{
+
+        background: radial-gradient(circle, $homepage-light-dayMode 0%, $homepage-dark-dayMode 100%);
+        border: 1px solid $text-resalt-dayMode;
+
+        & form{
+
+            & .nombre input,
+            & .email input,
+            & .mensaje textarea, 
+            & .enviar input{
+
+               border: 1px solid $text-resalt-dayMode;
+
+            }
+
+            & .nombre input:hover,
+            & .email input:hover,
+            & .mensaje textarea:hover,
+            & .enviar input:hover{
+                filter: drop-shadow(0 0 0.225em $text-resalt-dayMode);
+            }
+            & .enviar input{
+                color: $text-dayMode;
+                background-color: $homepage-dark-dayMode;
+            }
+            & .enviar input:hover{
+                color: $text-resalt-dayMode;
+                background-color: $homepage-light-dayMode;
+            }
+        }
+        
+    }
+    .box-form-mail:hover{
+        filter: drop-shadow(0 0 0.225em $text-resalt-dayMode);
+    }
+
+}

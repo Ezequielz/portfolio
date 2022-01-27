@@ -1,0 +1,148 @@
+.box-project{
+    transition: 0.5s ease-in-out;
+    // background-image: url("https://store.cloudflare.steamstatic.com/public/images/applications/store/diamonds_tile.png?v=c1258136984aabc0d6ed2229372a19b4");
+    background-color: $homepage-dark;
+
+
+    
+
+    & h3{
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+
+    }
+    & article{
+        padding: 30px ;
+        
+    }
+
+
+    &_container{
+        padding: 10px;
+
+    }
+
+    &_card-flip{
+        filter: drop-shadow(0 0 0.425em $homepage-light);
+        padding: 20px;
+        // background: radial-gradient(circle, $homepage-dark 0%, $homepage-light 100%);
+        background: radial-gradient(circle, $homepage-light 0%, $homepage-dark 100%);
+        border: 1px solid $text-resalt;
+        border-radius: 10px;
+    }
+    &_card-flip:hover{
+        filter: drop-shadow(0 0 0.425em $text-resalt);
+    }
+    &_card{   
+
+        &-menu{
+            margin: 0;
+            
+        }
+        &-git , &-web,  &-switch{
+
+            padding: 5px;
+
+            & a,span {
+                     display: flex;
+                    filter: drop-shadow(0 0 5px $text-resalt);
+                    border: solid 1px $text-resalt;
+                    border-radius: 10px;
+                   
+                    text-align: center;
+
+                }
+                & img , i{
+                    margin: 3px auto;
+                    height: 40px;
+                    width: 40px;
+                    
+                }
+                & span {
+                    
+                    filter: none;
+                    padding: 0 10px ;
+                    justify-content: center;
+                    align-items: center;
+                    height: 48px;
+                    font-size: 1.3rem;
+                    cursor: pointer;
+                }
+                & i {
+                    font-size: 1.4rem;
+                    margin: 1px 0 -13px 0;
+                    text-align: end;
+                    height: 40px;
+                }
+        }
+
+        &-git:hover,  &-web:hover, &-switch:hover{
+            filter: drop-shadow(0 0 3px $text-resalt);
+        }
+        &-switch span:hover{
+            background-color: $homepage-light;
+            color: $text-resalt;
+        }
+
+        &-title{
+            text-align: center;
+            text-transform: capitalize;
+            font-style: oblique;
+        }
+        
+        &-project-img {
+            object-fit: cover;
+            width: 100%;
+            height: 209px;
+            border: 1px solid $text-resalt;
+        }
+        &-infotext{
+            height: 245px;
+        }
+    }
+
+
+    @media all and (min-width: 900px){
+        & article{
+            padding: 40px 90px;
+            
+        }
+
+    }
+
+
+    
+}
+.bp-nocturn{
+    background-color: $homepage-dark-dayMode;
+    transition: 0.5s ease-in-out;
+    color: black;
+    &-flip{
+
+        filter: drop-shadow(0 0 0.425em $homepage-light-dayMode);
+        background: radial-gradient(circle, $homepage-light-dayMode 0%, $homepage-dark-dayMode 100%);
+        border: 1px solid $text-resalt-dayMode;
+
+    }
+    &-flip:hover{
+        filter: drop-shadow(0 0 0.425em $text-resalt-dayMode);
+    }
+    & a,span {
+       
+       filter: drop-shadow(0 0 5px $text-resalt-dayMode);
+       border: solid 1px $text-resalt-dayMode;
+       
+    }
+    &-web:hover, &-git:hover, &-switch:hover{
+        filter: drop-shadow(0 0 1px $text-resalt-dayMode);
+    }
+    &-switch span:hover{
+        background-color: $homepage-light-dayMode;
+        color: $text-resalt-dayMode;
+    }
+
+    .box-project_card-project-img{
+        border: 1px solid $text-resalt-dayMode;
+    }
+}

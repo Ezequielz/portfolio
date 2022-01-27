@@ -1,0 +1,30 @@
+.box-footer{
+    background-color: $homepage-dark;
+    height: 100px;
+    padding: 40px;
+   
+    & p{
+        text-align: center;
+        align-items: center;
+        
+    }
+
+}
+.wf{
+    & .__portfolio_waby-svg{
+        background-color: $homepage-light;
+        height: 50px;
+        margin-top: -3px;
+}
+
+}
+.bf-nocturn{
+    color: $text-dayMode;
+    background-color: $homepage-dark-dayMode;
+}
+.wf-nocturn{
+    background-color: $homepage-light-dayMode;
+    .__portfolio_waby-path{
+        fill: $homepage-dark-dayMode;
+    }
+}
