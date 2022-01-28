@@ -34,7 +34,7 @@ export const Contact = ({ nocturnMode }) => {
                             <div className='wsp col-3 col-lg-2'>
                                 <a 
                                     className="red-" 
-                                    href="https://wa.me/5491168342947"
+                                    href="https://wa.me/5491161378174"
                                     target="_blank"
                                     rel="noreferrer"
                                     ><i className="fab fa-whatsapp"></i>
