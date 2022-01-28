@@ -2,7 +2,7 @@ import React from 'react'
 
 export const WelcomeCard = ({ nocturnMode }) => {
     return (
-        <div className={ nocturnMode ?'_welcome row' : '_welcome bw-nocturn row' }  >
+        <div className={ nocturnMode ?'_welcome row container-fluid' : '_welcome bw-nocturn row container-fluid' }  >
 
             <div className='col-12  col-lg-6 home-text-container'>
                 <h1 className=' title'> Ezequiel Zapata</h1>

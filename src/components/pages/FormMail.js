@@ -7,13 +7,13 @@ export const FormMail = () => {
     
     const initialState = {
         name:"",
-        user_email:"",
+        email:"",
         telefono:"",
         mensaje:""
     }
     const [formValues, setFormValue] = useState(initialState)
     
-    const {name, user_email, mensaje} = formValues
+    const {name, email, mensaje} = formValues
     
     const handleChange = (e) => {
         e.preventDefault();
@@ -57,7 +57,7 @@ export const FormMail = () => {
                 <div className='col-12 nombre '>
                     <input 
                         type="text" 
-                        placeholder='nombre'
+                        placeholder='Nombre'
                         name="name" 
                         onChange={ handleChange }
                         autoComplete='off'
@@ -81,11 +81,11 @@ export const FormMail = () => {
                 <div className='col-12 mt-2 email'>
                     <input 
                         type="email" 
-                        placeholder='email'
+                        placeholder='Email'
                         name="email" 
                         onChange={ handleChange }
                         autoComplete='off'
-                        value={ user_email  }
+                        value={ email }
                         required
                     />
 
@@ -98,7 +98,7 @@ export const FormMail = () => {
                         type="text"
                         name="message"
                         onChange={ handleChange }
-                        placeholder='deje su mensaje'
+                        placeholder='Deje su mensaje'
                         autoComplete='off'
                         value={  mensaje }
                         rows="5" 
