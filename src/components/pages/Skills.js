@@ -1,4 +1,21 @@
-import React from 'react'
+
+import css from '../../images/css3.png'
+import sass from '../../images/sass.png'
+import bootstrap from '../../images/bootstrap.png'
+import js from '../../images/js.png'
+import react from '../../images/react.png'
+import nodejs from '../../images/nodejs.png'
+import git from '../../images/Git.png'
+import npm from '../../images/npm.png'
+import mongo from '../../images/mongo.png'
+import firebase from '../../images/firebase.png'
+import mysql from '../../images/mysql.png'
+import vsc from '../../images/vsc.png'
+import github from '../../images/github.png'
+import slack from '../../images/slack.png'
+import trello from '../../images/trello.png'
+import scrum from '../../images/scrum.png'
+
 
 export const Skills = ({ nocturnMode }) => {
 
@@ -18,39 +35,39 @@ export const Skills = ({ nocturnMode }) => {
                             <hr />
                             <div className='row col-12  box-skill__skill-card-iconsContainer'>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                    <img src="https://jesus1811.github.io/recursosPortafolio/javascript.svg" alt="" />
+                                    <img src={js} alt="" />
                                     <p>javaScript</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                <img src="https://jesus1811.github.io/recursosPortafolio/react.svg" alt="" />
+                                <img src={react} alt="" />
                                     <p>React.js</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                    <img src="https://img.icons8.com/windows/512/nodejs.png" alt="" />
+                                    <img src={nodejs} alt="" />
                                     <p>Node.js</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                    <img src="https://jesus1811.github.io/recursosPortafolio/git.svg" alt="" />
+                                    <img src={git} alt="" />
                                     <p>Git</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/npm-3445767-2878693.png" alt="" />
+                                    <img src={npm} alt="" />
                                     <p>Npm</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3628347-3032182.png" alt="" />
+                                    <img src={mongo} alt="" />
                                     <p>MongoDB</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                    <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/firebase-512.png" alt="" />
+                                    <img src={firebase} alt="" />
                                     <p>Firebase</p>
                                 </div>
                                 <div className='col-6 col-lg-4 mt-3 box-skill__skill-card-iconsContainer_icon'>
-                                    <img className='' src="http://pngimg.com/uploads/mysql/mysql_PNG3.png" alt="" />
+                                    <img className='' src={mysql} alt="" />
                                     <p className='mt-3'>MySQL</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                    <img src="https://findicons.com/files/icons/2779/simple_icons/512/visualstudio_512_black.png" alt="" />
+                                    <img src={vsc} alt="" />
                                     <p>VSC</p>
                                 </div>
 
@@ -70,15 +87,15 @@ export const Skills = ({ nocturnMode }) => {
                                         <p>HTML5</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://jesus1811.github.io/recursosPortafolio/css.svg" alt="" />
+                                        <img src={css} alt="css.png" />
                                         <p>CSS</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-3/512/288_Sass-512.png" alt="" />
+                                        <img src={sass} alt="sass.png" />
                                         <p>Sass</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://www.pngrepo.com/png/330083/512/bootstrap.png" alt="" />
+                                        <img src={bootstrap} alt="bootstrap.png" />
                                         <p>Bootstrap</p>
                                     </div>
 
@@ -95,19 +112,19 @@ export const Skills = ({ nocturnMode }) => {
                                 <div className='row col-12  box-skill__skill-card-iconsContainer'>
 
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://jesus1811.github.io/recursosPortafolio/github.svg" alt="" />
+                                        <img src={github} alt="" />
                                         <p>GitHub</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://cdn.iconscout.com/icon/free/png-256/slack-1521499-1288241.png" alt="" />
+                                        <img src={slack} alt="" />
                                         <p>Slack</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/25/25388.png" alt="" />
+                                        <img src={trello} alt="" />
                                         <p>Trello</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://library.kissclipart.com/20181220/cfe/kissclipart-scrum-icon-clipart-scrum-agile-software-developmen-46d1652d4bb0c89a.png" alt="" />
+                                        <img src={scrum} alt="" />
                                         <p>Scrum</p>
                                     </div>
 

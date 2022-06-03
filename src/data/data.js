@@ -7,11 +7,21 @@ import gif from '../media/gif.jpg'
 import heroes from '../media/heroes.jpg'
 import starwars from '../media/starwars.jpg'
 import calendar from '../media/calendar.jpg'
+import echestore from '../media/echestore.jpg'
 
 
  const Projects =[
     {
         "id":"1",
+        "title": "EcheStore",
+        "info": "App de una store propia de ventas de skins de CS:GO, un videojuego de Valve, influenciada en la pagina Steam, consumiendo sus apis para el detalle de los productos, creada con stack MERN",
+        "imagen":echestore,
+        "url": "https://echestore.com.ar",
+        "github": "https://github.com/Ezequielz/front-EcheStore",
+        "tecnologias": "MERN"
+    },
+    {
+        "id":"2",
         "title": "planets Star Wars",
         "info": "app con React integrándola con Redux, usando el API REST de Star Wars. Lista todos los planetas en una lista con un paginado de a 10 planetas, con la funcionalidad de agregar y/o quitar planetas favoritos ",
         "imagen":starwars,
@@ -20,21 +30,12 @@ import calendar from '../media/calendar.jpg'
         "tecnologias": "js"
     },
     {
-        "id":"2",
+        "id":"3",
         "title": "calendario",
         "info": " calendario usando el stack MERN (Mongo, Express, React , Node), con sistema de login y proteccion de rutas aplicando tokens",
         "imagen":calendar,
         "url": "https://calendarapp-zapata.netlify.app/",
         "github": "https://github.com/Ezequielz/mern-calendar-frontend",
-        "tecnologias": "js"
-    },
-    {
-        "id":"3",
-        "title": "Presupuesto semanal",
-        "info": "Este proyecto tiene el fin de calcular en base a un monto inicial de presupuesto, los gastos que una persona tiene y ver el restante que le queda. marcando con colores diferentes segun el porcentaje de dinero disponible",
-        "imagen":presupuesto,
-        "url": "https://presupuesto-zapata.netlify.app/",
-        "github": "https://github.com/Ezequielz/Presupuesto-React",
         "tecnologias": "js"
     },
     {
@@ -89,6 +90,15 @@ import calendar from '../media/calendar.jpg'
         "imagen":turnos,
         "url": "https://turnos-zapata.netlify.app/",
         "github": "https://github.com/Ezequielz/Turnos-React",
+        "tecnologias": "js"
+    },
+    {
+        "id":"10",
+        "title": "Presupuesto semanal",
+        "info": "Este proyecto tiene el fin de calcular en base a un monto inicial de presupuesto, los gastos que una persona tiene y ver el restante que le queda. marcando con colores diferentes segun el porcentaje de dinero disponible",
+        "imagen":presupuesto,
+        "url": "https://presupuesto-zapata.netlify.app/",
+        "github": "https://github.com/Ezequielz/Presupuesto-React",
         "tecnologias": "js"
     },
 
