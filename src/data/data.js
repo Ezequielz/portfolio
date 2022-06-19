@@ -80,7 +80,7 @@ import pokemon from '../media/pokemon.png'
         "title": "Busqueda de heroes",
         "info": "es una app de practica de uso de hooks, ruteo y proteccion de rutas testing busca heroes segun publisher y brinda la info. simula un login con proteccion de rutas.",
         "imagen":heroes,
-        "url": "https://heroesapp-zapata.netlify.app/marvel",
+        "url": "https://heroesapp-zapata.netlify.app/",
         "github": "https://github.com/Ezequielz/HeroesApp",
         "tecnologias": "js"
     },
