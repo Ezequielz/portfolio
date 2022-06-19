@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import { gsap } from 'gsap'
-;
+import { gsap } from 'gsap';
+
 
 
 export const NavBar = ({ nocturnMode, setNocturnMode }) => {
@@ -44,6 +44,7 @@ export const NavBar = ({ nocturnMode, setNocturnMode }) => {
                             className="navbar-brand navbar__logo " 
                             onClick={ handleTop }
                         >
+                          
                             <span className="name">&#60;Ezequiel</span> 
                             <span className="navbar__logo-apellido ">Zapata </span>
                             <span className="name">&#47;&#62;</span>
