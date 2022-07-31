@@ -116,7 +116,7 @@ import ip from '../media/ip.jpg'
     {
         "id":"12",
         "title": "Turnos veterinaria",
-        "info": "Este proyecto tiene el fin de organizar los turnos en una veterinaria.",
+        "info": "Este proyecto tiene el fin de organizar los turnos en una veterinaria",
         "imagen":turnos,
         "url": "https://turnos-zapata.netlify.app/",
         "github": "https://github.com/Ezequielz/Turnos-React",
