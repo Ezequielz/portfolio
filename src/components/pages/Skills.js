@@ -3,10 +3,14 @@ import css from '../../images/css3.png'
 import sass from '../../images/sass.png'
 import bootstrap from '../../images/bootstrap.png'
 import js from '../../images/js.png'
+import ts from '../../images/typescript.png'
 import react from '../../images/react.png'
 import nodejs from '../../images/nodejs.png'
 import git from '../../images/Git.png'
 import npm from '../../images/npm.png'
+import next from '../../images/next.png'
+import mu from '../../images/mu.png'
+import html from '../../images/html.png'
 import mongo from '../../images/mongo.png'
 import firebase from '../../images/firebase.png'
 import mysql from '../../images/mysql.png'
@@ -39,8 +43,16 @@ export const Skills = ({ nocturnMode }) => {
                                     <p>javaScript</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <img src={ts} alt="" />
+                                    <p>TypeScript</p>
+                                </div>
+                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
                                 <img src={react} alt="" />
                                     <p>React.js</p>
+                                </div>
+                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <img src={next} alt="" />
+                                    <p>NEXT.js</p>
                                 </div>
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
                                     <img src={nodejs} alt="" />
@@ -50,10 +62,11 @@ export const Skills = ({ nocturnMode }) => {
                                     <img src={git} alt="" />
                                     <p>Git</p>
                                 </div>
-                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+
+                                {/* <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
                                     <img src={npm} alt="" />
                                     <p>Npm</p>
-                                </div>
+                                </div> */}
                                 <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
                                     <img src={mongo} alt="" />
                                     <p>MongoDB</p>
@@ -83,12 +96,16 @@ export const Skills = ({ nocturnMode }) => {
                                 <hr />
                                 <div className='row col-12  box-skill__skill-card-iconsContainer'>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
-                                        <img src="https://jesus1811.github.io/recursosPortafolio/html.svg" alt="" />
+                                        <img src={html} alt="" />
                                         <p>HTML5</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
                                         <img src={css} alt="css.png" />
                                         <p>CSS</p>
+                                    </div>
+                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                        <img src={mu} alt="mu.png" />
+                                        <p>Material UI</p>
                                     </div>
                                     <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
                                         <img src={sass} alt="sass.png" />
