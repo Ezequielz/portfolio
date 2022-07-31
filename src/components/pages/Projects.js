@@ -18,7 +18,7 @@ export const Projects = ({ nocturnMode }) => {
 
                         {
                             data.map(project => 
-                                <div className='col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 box-project_card-box' key={project.id}>
+                                <div className='col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 box-project_card-box' key={project.id} data-aos="fade-up">
 
                                         <ProjectCard project={project} nocturnMode={ nocturnMode } />
 

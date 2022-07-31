@@ -10,13 +10,13 @@ export const OptionsCard = ({ project,handleFlip,isFlipped,nocturnMode }) => {
 
     return (
 
-        <div className='row  col-12 box-project_card-menu'>
+        <div className='row  col-12 box-project_card-menu' >
                     
-        <div className={ nocturnMode? 'col-3 box-project_card-web' : 'col-3 box-project_card-web bp-nocturn-web'}  >
+        <div className={ nocturnMode? 'col-3 box-project_card-web' : 'col-3 box-project_card-web bp-nocturn-web'} >
             <a href={ url } target="_blank" rel="noreferrer"> <img src={ web } alt="" /> </a>
 
         </div>
-        <div className={ nocturnMode? 'col-3 box-project_card-git' : 'col-3 box-project_card-git bp-nocturn-git'}  >
+        <div className={ nocturnMode? 'col-3 box-project_card-git' : 'col-3 box-project_card-git bp-nocturn-git'} >
             <a href={github} target="_blank" rel="noreferrer"> <img src={githubImg} alt="" /></a>    
 
         </div>

@@ -48,7 +48,7 @@ export const FormMail = () => {
     }
 
     return (
-        <div className='col-12 col-lg-4 box-form-mail'>
+        <div className='col-12 col-lg-4 box-form-mail' data-aos="fade-left">
 
             <h5>Pongamonos en contacto!</h5>
 
