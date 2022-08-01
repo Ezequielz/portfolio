@@ -13,7 +13,7 @@ export const Contact = ({ nocturnMode }) => {
 
                 <div className='row col-12 mt-4 -container'>
 
-                    <div className='col-12 col-lg-8 _contact-info-container'>
+                    <div className='col-12 col-lg-8 _contact-info-container' data-aos="fade-right">
 
 
                         <h2>Trabajemos Juntos!</h2>

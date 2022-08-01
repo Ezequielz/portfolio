@@ -8,6 +8,7 @@ export const ButtonCard = ({handleFlip,isFlipped,nocturnMode}) => {
         <div 
             className={ nocturnMode? 'col-6 box-project_card-switch' : 'col-6 box-project_card-switch bp-nocturn-switch' }  
             onClick={ handleFlip } 
+          
             > 
 
                 {

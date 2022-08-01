@@ -3,7 +3,7 @@ import foto from '../../media/fotoPerfil.jpg'
 import diploma from '../../media/diploma.jpg'
 import diplomaPDF from '../../data/diploma.pdf'
 import CV from '../../data/CV-Ezequiel-Zapata.pdf';
-;
+
 
 
 export const About = ({ nocturnMode }) => {
@@ -39,12 +39,12 @@ export const About = ({ nocturnMode }) => {
 
                             {/* FOTO CONTAINER */}
 
-                            <div className='col-xs-12 col-sm-4 col-lg-3  foto-container'>
+                            <div className='col-xs-12 col-sm-4 col-lg-3  foto-container'   data-aos="zoom-out-left">
 
                                 <img src={foto} className='foto' alt="foto Ezequiel Zapata" />
                             </div>
                             {/* TEXT CONTAINER */}
-                            <div className='col-xs-12 col-sm-8 col-lg-9  _text-container '>
+                            <div className='col-xs-12 col-sm-8 col-lg-9  _text-container ' data-aos="zoom-in">
 
 
                                 <p className=' _text'> 
@@ -64,7 +64,7 @@ export const About = ({ nocturnMode }) => {
                         <div className='container-info c-two col-11 row'>
 
                                 {/* DIPLOMA CONTAINER */}
-                            <div className='col-12 col-sm-4 diploma-container'>
+                            <div className='col-12 col-sm-4 diploma-container' data-aos="zoom-out-right">
                             <a
                                     href={diplomaPDF}
                                     className=""
@@ -78,7 +78,7 @@ export const About = ({ nocturnMode }) => {
                             </div>
                             
                             
-                            <div className='col-12 col-sm-8  _text-container '>
+                            <div className='col-12 col-sm-8  _text-container ' data-aos="zoom-in">
 
                                     {/* TEXT  */}
                                 <p className=' _text'> 

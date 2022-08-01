@@ -7,7 +7,7 @@ import ts from '../../images/typescript.png'
 import react from '../../images/react.png'
 import nodejs from '../../images/nodejs.png'
 import git from '../../images/Git.png'
-import npm from '../../images/npm.png'
+// import npm from '../../images/npm.png'
 import next from '../../images/next.png'
 import mu from '../../images/mu.png'
 import html from '../../images/html.png'
@@ -33,12 +33,12 @@ export const Skills = ({ nocturnMode }) => {
                     <hr />
                     <div className='row box-skill__skill-conteiner'>
                     {/* DESARROLLO */}
-                    <div className='col-12 col-sm-6 col-lg-4  box-skill__skill-card mt-4'>
+                    <div className='col-12 col-sm-6 col-lg-4  box-skill__skill-card mt-4' data-aos="fade-right">
                         <div className={ nocturnMode ? 'box-skill__skill-card-border': 'box-skill__skill-card-border box-skill-nocturn-border' }>
                             <h4 className='mt-3'>Desarrollo</h4>
                             <hr />
                             <div className='row col-12  box-skill__skill-card-iconsContainer'>
-                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                     <img src={js} alt="" />
                                     <p>javaScript</p>
                                 </div>
@@ -58,7 +58,7 @@ export const Skills = ({ nocturnMode }) => {
                                     <img src={nodejs} alt="" />
                                     <p>Node.js</p>
                                 </div>
-                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                     <img src={git} alt="" />
                                     <p>Git</p>
                                 </div>
@@ -71,15 +71,15 @@ export const Skills = ({ nocturnMode }) => {
                                     <img src={mongo} alt="" />
                                     <p>MongoDB</p>
                                 </div>
-                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                     <img src={firebase} alt="" />
                                     <p>Firebase</p>
                                 </div>
-                                <div className='col-6 col-lg-4 mt-3 box-skill__skill-card-iconsContainer_icon'>
+                                <div className='col-6 col-lg-4 mt-3 box-skill__skill-card-iconsContainer_icon' >
                                     <img className='' src={mysql} alt="" />
                                     <p className='mt-3'>MySQL</p>
                                 </div>
-                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                     <img src={vsc} alt="" />
                                     <p>VSC</p>
                                 </div>
@@ -89,7 +89,7 @@ export const Skills = ({ nocturnMode }) => {
                     </div>
                     {/* MAQUETACION */}
 
-                    <div className='row col-sm-6 col-lg-8 skill-group mt-4'>
+                    <div className='row col-sm-6 col-lg-8 skill-group mt-4' data-aos="fade-up">
                         <div className='col-12 col-lg-6 box-skill__skill-card'>
                             <div className={ nocturnMode ? 'box-skill__skill-card-border': 'box-skill__skill-card-border box-skill-nocturn-border' }>
                                 <h4 className='mt-3'>Maquetado</h4>
@@ -99,7 +99,7 @@ export const Skills = ({ nocturnMode }) => {
                                         <img src={html} alt="" />
                                         <p>HTML5</p>
                                     </div>
-                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                         <img src={css} alt="css.png" />
                                         <p>CSS</p>
                                     </div>
@@ -111,7 +111,7 @@ export const Skills = ({ nocturnMode }) => {
                                         <img src={sass} alt="sass.png" />
                                         <p>Sass</p>
                                     </div>
-                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                         <img src={bootstrap} alt="bootstrap.png" />
                                         <p>Bootstrap</p>
                                     </div>
@@ -122,25 +122,25 @@ export const Skills = ({ nocturnMode }) => {
                             </div>
                         </div>
                         {/* ORGANIZACION */}
-                        <div className='col-12 col-lg-6 box-skill__skill-card'>
+                        <div className='col-12 col-lg-6 box-skill__skill-card' data-aos="fade-left">
                             <div className={ nocturnMode ? 'box-skill__skill-card-border': 'box-skill__skill-card-border box-skill-nocturn-border' }>
                                 <h4 className='mt-3'>Organización</h4>
                                 <hr />
                                 <div className='row col-12  box-skill__skill-card-iconsContainer'>
 
-                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                         <img src={github} alt="" />
                                         <p>GitHub</p>
                                     </div>
-                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                         <img src={slack} alt="" />
                                         <p>Slack</p>
                                     </div>
-                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                         <img src={trello} alt="" />
                                         <p>Trello</p>
                                     </div>
-                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon'>
+                                    <div className='col-6 col-lg-4 box-skill__skill-card-iconsContainer_icon' >
                                         <img src={scrum} alt="" />
                                         <p>Scrum</p>
                                     </div>

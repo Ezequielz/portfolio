@@ -9,11 +9,18 @@ import { Contact } from './components/pages/Contact';
 import { Footer } from './components/pages/Footer';
 import { WelcomeCard } from './components/WelcomeCard';
 import { WabyFooter } from './components/WabyFooter';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 
 export const PortfolioApp = () => {
 
   const initialNocturnState = JSON.parse( localStorage.getItem('nocturnMode') )
   const [ nocturnMode, setNocturnMode ] = useState(initialNocturnState)
+  
+  useEffect(() => {
+    Aos.init({duration:2000})
+  }, [])
   
 
   useEffect(() => {
